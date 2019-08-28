@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page1.component.scss']
 })
 export class Page1Component implements OnInit {
+  title = 'hello-without-router';
+
 
   constructor() { }
 
