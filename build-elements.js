@@ -10,5 +10,5 @@ const concat = require('concat');
   ];
 
   await fs.ensureDir('elements');
-  await concat(files, 'elements/hello-app.js');
+  await concat(files, 'elements/hellojs/hello-app.js');
 })();
