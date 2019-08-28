@@ -19,7 +19,7 @@ import {Page1Component} from './page1/page1.component';
         path: 'hello',
         children: [
           {
-            path: 'page2',
+            path: 'page1',
             component: Page1Component
           }
           ]
