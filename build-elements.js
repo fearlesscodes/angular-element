@@ -9,6 +9,6 @@ const concat = require('concat');
     './dist/hello-without-router/main-es2015.js'
   ];
 
-  await fs.ensureDir('elements');
-  await concat(files, 'elements/hellojs/hello-app.js');
+  await fs.ensureDir('elements/hellojs');
+  await concat(files, 'elements/hellojs/hello-app.js').catch(console.log);
 })();
